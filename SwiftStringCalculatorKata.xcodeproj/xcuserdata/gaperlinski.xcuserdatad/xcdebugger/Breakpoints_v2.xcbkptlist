@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftStringCalculatorKataTests/StringCalculatorTests.swift"
+            timestampString = "452962119.274971"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "testEmptyStringReturnsZero()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftStringCalculatorKataTests/StringCalculatorTests.swift"
+            timestampString = "452962119.274971"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "testOneStringShouldReturnThisString()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftStringCalculatorKataTests.StringCalculatorTests.testOneStringShouldReturnThisString (SwiftStringCalculatorKataTests.StringCalculatorTests)() -&gt; ()"
+                  moduleName = "SwiftStringCalculatorKataTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaperlinski/Documents/workspace/SwiftStringCalculatorKata/SwiftStringCalculatorKataTests/StringCalculatorTests.swift"
+                  timestampString = "451775339.006045"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "71">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftStringCalculatorKataTests.StringCalculatorTests.(testOneStringShouldReturnThisString (SwiftStringCalculatorKataTests.StringCalculatorTests) -&gt; () -&gt; ()).(implicit closure #1)"
+                  moduleName = "SwiftStringCalculatorKataTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaperlinski/Documents/workspace/SwiftStringCalculatorKata/SwiftStringCalculatorKataTests/StringCalculatorTests.swift"
+                  timestampString = "451775339.008554"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "9">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftStringCalculatorKataTests.StringCalculatorTests.(testOneStringShouldReturnThisString (SwiftStringCalculatorKataTests.StringCalculatorTests) -&gt; () -&gt; ()).(implicit closure #2)"
+                  moduleName = "SwiftStringCalculatorKataTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gaperlinski/Documents/workspace/SwiftStringCalculatorKata/SwiftStringCalculatorKataTests/StringCalculatorTests.swift"
+                  timestampString = "451775339.009418"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftStringCalculatorKataTests/StringCalculatorTests.swift"
+            timestampString = "452962119.274971"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "StringCalculatorTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftStringCalculatorKata/SwiftCalculator.swift"
+            timestampString = "451775463.887054"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "add(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftStringCalculatorKataTests/StringCalculatorTests.swift"
+            timestampString = "452961999.985289"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

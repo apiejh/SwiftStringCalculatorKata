@@ -13,6 +13,9 @@
 		268A58AE1AED86B200D64D55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268A58AD1AED86B200D64D55 /* Images.xcassets */; };
 		268A58B11AED86B200D64D55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 268A58AF1AED86B200D64D55 /* LaunchScreen.xib */; };
 		268A58BD1AED86B200D64D55 /* SwiftStringCalculatorKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A58BC1AED86B200D64D55 /* SwiftStringCalculatorKataTests.swift */; };
+		268A58C71AED86F000D64D55 /* SwiftCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A58C61AED86F000D64D55 /* SwiftCalculator.swift */; };
+		268A58CB1AED873D00D64D55 /* StringCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A58CA1AED873D00D64D55 /* StringCalculatorTests.swift */; };
+		268A58CC1AED89B700D64D55 /* SwiftCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268A58C61AED86F000D64D55 /* SwiftCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 		268A58B61AED86B200D64D55 /* SwiftStringCalculatorKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStringCalculatorKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		268A58BB1AED86B200D64D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268A58BC1AED86B200D64D55 /* SwiftStringCalculatorKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStringCalculatorKataTests.swift; sourceTree = "<group>"; };
+		268A58C61AED86F000D64D55 /* SwiftCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCalculator.swift; sourceTree = "<group>"; };
+		268A58CA1AED873D00D64D55 /* StringCalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 			children = (
 				268A58A61AED86B200D64D55 /* AppDelegate.swift */,
 				268A58A81AED86B200D64D55 /* ViewController.swift */,
+				268A58C61AED86F000D64D55 /* SwiftCalculator.swift */,
 				268A58AA1AED86B200D64D55 /* Main.storyboard */,
 				268A58AD1AED86B200D64D55 /* Images.xcassets */,
 				268A58AF1AED86B200D64D55 /* LaunchScreen.xib */,
@@ -98,6 +104,7 @@
 		268A58B91AED86B200D64D55 /* SwiftStringCalculatorKataTests */ = {
 			isa = PBXGroup;
 			children = (
+				268A58CA1AED873D00D64D55 /* StringCalculatorTests.swift */,
 				268A58BC1AED86B200D64D55 /* SwiftStringCalculatorKataTests.swift */,
 				268A58BA1AED86B200D64D55 /* Supporting Files */,
 			);
@@ -214,6 +221,7 @@
 			files = (
 				268A58A91AED86B200D64D55 /* ViewController.swift in Sources */,
 				268A58A71AED86B200D64D55 /* AppDelegate.swift in Sources */,
+				268A58C71AED86F000D64D55 /* SwiftCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268A58CB1AED873D00D64D55 /* StringCalculatorTests.swift in Sources */,
 				268A58BD1AED86B200D64D55 /* SwiftStringCalculatorKataTests.swift in Sources */,
+				268A58CC1AED89B700D64D55 /* SwiftCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +350,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftStringCalculatorKata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -350,7 +362,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftStringCalculatorKata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +423,7 @@
 				268A58C21AED86B200D64D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		268A58C31AED86B200D64D55 /* Build configuration list for PBXNativeTarget "SwiftStringCalculatorKataTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +432,7 @@
 				268A58C51AED86B200D64D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
